@@ -12,7 +12,7 @@ This project is a web-based examination system built with **Next.js**, **React.j
 - **Progress Bar**: Displays the user's progress through the exam.
 - **Iconography**: Uses Lucide Icons for a clean and modern UI.
 - **Dark Mode**: Users can toggle dark mode for a better visual experience in low-light environments.
-- **Testing**: Includes unit tests using Jest.
+- **Testing**: Includes unit tests using Jest to ensure the functionality and reliability of components.
 - **Deployment**: Easy deployment to Vercel or GitHub Pages.
 
 ## Technologies Used
