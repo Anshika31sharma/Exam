@@ -11,6 +11,7 @@ This project is a web-based examination system built with **Next.js**, **React.j
 - **Question Flagging**: Users can flag questions for review.
 - **Progress Bar**: Displays the user's progress through the exam.
 - **Iconography**: Uses Lucide Icons for a clean and modern UI.
+- **Dark Mode**: Users can toggle dark mode for a better visual experience in low-light environments.
 - **Testing**: Includes unit tests using Jest.
 - **Deployment**: Easy deployment to Vercel or GitHub Pages.
 
@@ -34,7 +35,9 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
 
+   ```bash
    git clone https://github.com/Anshika31sharma/Exam
+
 
 2. Navigate to the project directory: 
    
