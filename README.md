@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Exam Page Project
+
+This project is a web-based examination system built with **Next.js**, **React.js**, **Tailwind CSS**, and **Lucide Icons**. It allows users to take an exam with a timer, navigate through multiple-choice questions, and view their results after completion.
+
+## Features
+
+- **Timer**: A countdown timer for the exam duration.
+- **Multiple-Choice Navigation**: Users can navigate between questions.
+- **Submission**: Users can submit the exam after answering at least 50% of the questions.
+- **Results Page**: A static results page that displays the score after submission.
+- **Question Flagging**: Users can flag questions for review.
+- **Progress Bar**: Displays the user's progress through the exam.
+- **Iconography**: Uses Lucide Icons for a clean and modern UI.
+- **Testing**: Includes unit tests using Jest.
+- **Deployment**: Easy deployment to Vercel or GitHub Pages.
+
+## Technologies Used
+
+- **Next.js**: For server-side rendering and static site generation.
+- **React.js**: For building user interfaces.
+- **Tailwind CSS**: For styling and responsive design.
+- **Lucide Icons**: A set of high-quality icons for better user experience.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (version 14 or later)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To get a local copy up and running, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
 
-## Learn More
+   git clone https://github.com/Anshika31sharma/Exam
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project directory: 
+   
+   cd Exam
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install the dependencies:
+   
+   npm install
+   
+4. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   npm start
 
-## Deploy on Vercel
+- **Others:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Github (for version control)
+ 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/new-feature`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Submit a pull request.
+
+## Author
+
+Anshika Sharma
+
