@@ -27,7 +27,10 @@ export default function ResultChart({ correctAnswers, totalQuestions }) {
 
   return (
     <div className="flex flex-col items-center my-8 max-w-2xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-6 text-center">Your results based on your answers:</h1>
+     <h1 className={`text-2xl font-bold mb-6 text-center ${isDarkMode ? "text-white" : "text-gray-800"}`}>
+  Your results based on your answers:
+</h1>
+
       <div className="bg-gray-100 rounded-lg shadow-lg p-8 w-full max-w-4xl text-center">
         <p className="text-lg mb-4">
           You are most suitable for <strong>Association of Chartered Certified Accountant (ACCA)</strong>

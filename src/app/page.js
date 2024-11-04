@@ -78,7 +78,12 @@ export default function Page() {
     <div className={`flex h-screen ${isDarkMode ? "bg-gray-900" : "bg-gray-50"}`}>
       {isCompleted ? (
         <main className={`flex-1 p-6 ${isDarkMode ? "bg-gray-800" : "bg-white"}`}>
+          <div className="flex justify-between">
           <h2 className={`text-2xl font-semibold mb-4 ${isDarkMode ? "text-white" : "text-gray-800"}`}>Results</h2>
+          <button onClick={toggleDarkMode} className={`px-4 py-2 rounded-full ${isDarkMode ? "bg-gray-700" : "bg-gray-300"} hover:bg-gray-400`}>
+                  {isDarkMode ? <BiSun className="text-yellow-400" /> : <BiMoon className="text-gray-600" />}
+                </button>
+                </div>
           <ResultChart
             correctAnswers={correctAnswersCount}
             totalQuestions={questions.length}
